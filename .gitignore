@@ -1,0 +1,12 @@
+# Java / IntelliJ
+/backend/target/
+*.iml
+.idea/
+
+# Node / VS Code
+/frontend/node_modules/
+.vscode/
+
+# Others
+.DS_Store
+.env
