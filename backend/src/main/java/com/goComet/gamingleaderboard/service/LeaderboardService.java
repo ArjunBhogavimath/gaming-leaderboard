@@ -7,9 +7,12 @@ import com.goComet.gamingleaderboard.repository.GameSessionRepository;
 import com.goComet.gamingleaderboard.repository.LeaderboardRepository;
 import com.goComet.gamingleaderboard.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class LeaderboardService {
@@ -47,5 +50,10 @@ public class LeaderboardService {
         leaderboard.setTotalScore(totalScore);
 
         leaderboardRepository.save(leaderboard);
+    }
+
+    public List<Leaderboard> getTopPlayers(){
+        return leaderboardRepository.findAll(Sort.by(Sort.Direction.DESC, "totalScore"))
+                .stream().limit(10).collect(Collectors.toList());
     }
 }
