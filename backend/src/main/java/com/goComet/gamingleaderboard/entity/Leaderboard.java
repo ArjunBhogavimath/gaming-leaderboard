@@ -17,6 +17,8 @@ public class Leaderboard {
     @Column(name = "total_score")
     private int totalScore;
 
+    private Integer rank;
+
     public long getId() {
         return id;
     }
@@ -39,5 +41,13 @@ public class Leaderboard {
 
     public void setTotalScore(int totalScore) {
         this.totalScore = totalScore;
+    }
+
+    public Integer getRank() {
+        return rank;
+    }
+
+    public void setRank(Integer rank) {
+        this.rank = rank;
     }
 }
