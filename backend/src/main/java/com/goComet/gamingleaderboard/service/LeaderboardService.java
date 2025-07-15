@@ -56,4 +56,8 @@ public class LeaderboardService {
         return leaderboardRepository.findAll(Sort.by(Sort.Direction.DESC, "totalScore"))
                 .stream().limit(10).collect(Collectors.toList());
     }
+
+    public Integer getPlayerRank(Long userId){
+        return leaderboardRepository.getRankByUserId(userId);
+    }
 }

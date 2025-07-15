@@ -2,13 +2,14 @@ package com.goComet.gamingleaderboard.controller;
 
 import com.goComet.gamingleaderboard.dto.ScoreSubmissionRequest;
 import com.goComet.gamingleaderboard.entity.Leaderboard;
-import com.goComet.gamingleaderboard.entity.User;
 import com.goComet.gamingleaderboard.service.LeaderboardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(name = "leaderboard")
@@ -28,4 +29,13 @@ public class LeaderboardController {
         return ResponseEntity.ok(leaderboardService.getTopPlayers());
     }
 
+    @GetMapping("rank/{userId}")
+    public ResponseEntity<Map<String, Object>> getUserRank(@PathVariable Long userId){
+        int rank = leaderboardService.getPlayerRank(userId);
+        Map<String, Object> response = new HashMap<>();
+        response.put("userId", userId);
+        response.put("rank", rank);
+
+        return ResponseEntity.ok(response);
+    }
 }
