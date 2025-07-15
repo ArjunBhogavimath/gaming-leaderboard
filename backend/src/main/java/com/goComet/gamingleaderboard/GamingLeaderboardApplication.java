@@ -1,4 +1,4 @@
-package com.goComet.GamingLeaderboard;
+package com.goComet.gamingleaderboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.goComet.gamingLeaderboard.repository;
+package com.goComet.gamingleaderboard.repository;
 
-import com.goComet.gamingLeaderboard.entity.User;
+import com.goComet.gamingleaderboard.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
