@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping(name = "leaderboard")
+@RequestMapping("api/leaderboard")
 public class LeaderboardController {
 
     @Autowired
