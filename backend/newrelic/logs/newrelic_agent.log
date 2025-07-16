@@ -1,0 +1,42 @@
+2025-07-17T01:12:58,769+0530 [19504 1] com.newrelic INFO: Writing to New Relic log file: G:\Coding Workspace\gaming-leaderboard\backend\newrelic\logs\newrelic_agent.log
+2025-07-17T01:12:58,770+0530 [19504 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.9
+2025-07-17T01:12:58,770+0530 [19504 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.9+11-LTS-201
+2025-07-17T01:12:58,770+0530 [19504 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-07-17T01:12:58,770+0530 [19504 1] com.newrelic INFO: Agent Host: Mallikarjun IP: 192.168.188.1
+2025-07-17T01:12:58,770+0530 [19504 1] com.newrelic INFO: New Relic Agent v8.22.0 is initializing...
+2025-07-17T01:13:00,112+0530 [19504 23] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-07-17T01:13:01,876+0530 [19504 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-07-17T01:13:02,344+0530 [19504 1] com.newrelic INFO: Setting audit_mode to false
+2025-07-17T01:13:02,526+0530 [19504 36] com.newrelic WARN: Failed to validate Azure App Services value
+2025-07-17T01:13:02,624+0530 [19504 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is G:\Coding Workspace\gaming-leaderboard\backend\newrelic\.\newrelic.yml
+2025-07-17T01:13:02,638+0530 [19504 1] com.newrelic INFO: New Relic Agent v8.22.0 has started
+2025-07-17T01:13:02,638+0530 [19504 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@769c9116
+2025-07-17T01:13:02,638+0530 [19504 1] com.newrelic INFO: Premain startup complete in 5,342ms
+2025-07-17T01:13:02,642+0530 [19504 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-07-17T01:13:09,392+0530 [19504 45] com.newrelic INFO: Server Info: Apache Tomcat/10.1.42
+2025-07-17T01:13:22,666+0530 [19504 40] com.newrelic INFO: Host name is Mallikarjun, display host Mallikarjun for application GamingLeaderboard
+2025-07-17T01:13:22,667+0530 [19504 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-07-17T01:13:24,450+0530 [19504 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-07-17T01:13:46,178+0530 [19504 40] com.newrelic ERROR: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2025-07-17T01:13:46,178+0530 [19504 40] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for GamingLeaderboard: java.net.SocketException: Connection reset
+2025-07-17T01:13:51,194+0530 [19504 40] com.newrelic INFO: Host name is Mallikarjun, display host Mallikarjun for application GamingLeaderboard
+2025-07-17T01:13:51,195+0530 [19504 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-07-17T01:13:51,274+0530 [19504 35] com.newrelic WARN: Failed to validate Azure App Services value
+2025-07-17T01:13:52,779+0530 [19504 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-07-17T01:13:54,009+0530 [19504 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-07-17T01:13:54,009+0530 [19504 40] com.newrelic INFO: Agent run id: BR_Vx2OeQWK4AGmMaTrRTzdoeAE8AAIBAAAnIQEAAEwwAgQ60VCWAwAGOC4yMi4wAAtNYWxsaWthcmp1bgARR2FtaW5nTGVhZGVyYm9hcmQ
+2025-07-17T01:13:54,009+0530 [19504 40] com.newrelic INFO: Agent 19504@Mallikarjun/GamingLeaderboard connected to collector.newrelic.com:443
+2025-07-17T01:13:54,010+0530 [19504 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6917225/applications/986796182
+2025-07-17T01:13:54,013+0530 [19504 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-07-17T01:13:54,014+0530 [19504 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-07-17T01:13:54,014+0530 [19504 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-07-17T01:13:54,019+0530 [19504 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-07-17T01:13:54,019+0530 [19504 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-07-17T01:13:54,020+0530 [19504 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-07-17T01:13:55,153+0530 [19504 40] com.newrelic INFO: Real user monitoring is enabled for application GamingLeaderboard. Auto instrumentation is enabled.
+2025-07-17T01:13:55,153+0530 [19504 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-07-17T01:24:14,438+0530 [19504 73] com.newrelic ERROR: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2025-07-17T01:24:40,140+0530 [19504 73] com.newrelic ERROR: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2025-07-17T01:36:44,254+0530 [19504 72] com.newrelic ERROR: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2025-07-17T01:36:44,254+0530 [19504 72] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.SocketException: Connection reset
+2025-07-17T01:36:45,591+0530 [19504 16] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
